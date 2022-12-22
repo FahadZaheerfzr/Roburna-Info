@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with React, Tailwind & React Router
+
+This is a boiler plate for React to use with Tailwind CSS and React Router Dom
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
