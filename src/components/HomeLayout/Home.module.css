@@ -1,0 +1,9 @@
+.hero{
+    background: linear-gradient(146.87deg, #D09114 19.75%, #007740 111.78%);
+}
+
+.background{
+    background: url("/public/hero/hero-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
