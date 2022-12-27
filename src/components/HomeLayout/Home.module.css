@@ -7,3 +7,14 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.mainDiv{
+    background: url("/public/backgrounds/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clientDiv{
+    background: url("/public/clients/tree.svg");
+    background-repeat: no-repeat;
+}
