@@ -21,25 +21,25 @@ export default function HomeLayout() {
     const executeScroll = (name) => {
         if (name === "About") {
             setActive("About");
-            aboutRef.current.scrollIntoView()
+            aboutRef.current.scrollIntoView({behavior: 'smooth'})
         }
         else if (name === "Founder") {
             setActive("Founder");
-            founderRef.current.scrollIntoView()
+            founderRef.current.scrollIntoView({behavior: 'smooth'})
         }
         else if (name === "Clients") {
             setActive("Clients");
-            clientRef.current.scrollIntoView()
+            clientRef.current.scrollIntoView({behavior: 'smooth'})
         }
         else if (name === "Contact") {
             setActive("Contact");
-            contactRef.current.scrollIntoView()
+            contactRef.current.scrollIntoView({behavior: 'smooth'})
         }
     }
 
     return (
         <div className='font-jost'>
-            <Topbar active={active} setActive={setActive} executeScroll={executeScroll} />
+            <Topbar active={active} executeScroll={executeScroll} />
 
             <Hero />
 
