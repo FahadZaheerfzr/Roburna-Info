@@ -27,18 +27,18 @@ export default function About() {
     return (
         <div className='mt-10'>
             <div className='flex flex-col items-center justify-center '>
-                <span className='font-medium text-5xl text-center leading-snug'>
+                <span className='font-medium lg:text-4xl xl:text-5xl text-center leading-snug'>
                     Our clients are active across tech and non-tech <br />
                     industries, with needs as varied as
                 </span>
 
                 <div className='flex gap-x-[62px] my-9 items-center'>
                 {icons.map((icon)=>(
-                    <img key={icon.id} className={`${icon.id === 3 ? "w-[120px] h-[120px]" :"w-[100px] h-[100px]"}`} src={icon.icon} alt="icon" />
+                    <img key={icon.id} className={`${icon.id === 3 ? "lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px]" :"lg:w-[90px] lg:h-[90px] xl:w-[100px] xl:h-[100px]"}`} src={icon.icon} alt="icon" />
                 ))}
                 </div>
 
-                <span className=' font-normal text-5xl text-center leading-snug'>
+                <span className=' font-normal lg:text-4xl xl:text-5xl text-center leading-snug'>
                     blockchain protocols, game development, <br/>
                     financial service platforms, e-shops, and more.
                 </span>
