@@ -1,20 +1,43 @@
-.hero{
+.hero {
     background: linear-gradient(146.87deg, #D09114 19.75%, #007740 111.78%);
 }
 
-.background{
+.background {
     background: url("/public/hero/hero-bg.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.mainDiv{
+.mainDiv {
     background: url("/public/backgrounds/background.svg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.clientDiv{
+.topDiv {
+    background: url("/public/backgrounds/branches.svg");
+    background-position-x: 50px;
+    background-position-y: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clientDiv {
     background: url("/public/clients/tree.svg");
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1000px;
+}
+
+.contactEmail {
+    background: linear-gradient(270deg, #4A8B2C 0%, #C89211 97.5%);
+    border-radius: 61px;
+}
+
+.emailInfo {
+    background: linear-gradient(270deg, #4A8B2C 0%, #C89211 97.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
