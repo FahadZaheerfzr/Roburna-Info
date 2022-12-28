@@ -22,11 +22,11 @@ export default function HomeLayout() {
                     </div>
                 </div>
                 <div className={`${Styles.clientDiv}  mt-12`}>
-                    <div className='mt-20'>
+                    <div className='md:mt-12 lg:mt-20'>
                         <Clients />
                     </div>
 
-                    <div className='mt-60 pb-60'>
+                    <div className='md:mt-40 md:pb-40 lg:mt-52 lg:pb-52 xl:mt-60 xl:pb-60'>
                         <Contact />
                     </div>
                 </div>

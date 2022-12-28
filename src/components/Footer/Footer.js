@@ -9,11 +9,11 @@ export default function Footer() {
             </div>
 
             <div className='w-full flex flex-col justify-center items-center'>
-                <span className='text-white font-normal text-2xl'>
+                <span className='text-white font-normal md:text-xl lg:text-2xl'>
                     Cookie Policy
                 </span>
 
-                <span className='mt-8 text-white font-normal text-2xl'>
+                <span className='mt-8 text-white font-normal md:text-xl lg:text-2xl text-center'>
                     © 2022 All Rights Reserved"
                 </span>
             </div>

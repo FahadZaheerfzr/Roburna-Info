@@ -11,7 +11,7 @@ export default function Hero() {
                     </div>
                     <div className="flex justify-center items-center mt-10 h-full">
                         <img src="/hero/hero-plant.png" alt="hero-plant" className='w-[530px] absolute' />
-                        <span className='relative z-10 text-center text-white font-extrabold lg:text-7xl xl:text-9xl md:!leading-normal '>
+                        <span className='relative z-10 text-center text-white font-extrabold md:text-7xl xl:text-9xl md:!leading-normal '>
                             Developing a Green <br />Web3
                         </span>
                     </div>
