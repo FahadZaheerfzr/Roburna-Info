@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './Home.module.css'
+import Styles from './Hero.module.css'
 
 export default function Hero() {
     return (

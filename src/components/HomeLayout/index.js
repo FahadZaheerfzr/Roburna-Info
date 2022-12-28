@@ -1,9 +1,9 @@
 import React from 'react'
-import About from './About'
-import Clients from './Clients'
-import Contact from './Contact'
-import Founder from './Founder'
-import Hero from './Hero'
+import About from '../About/About'
+import Clients from '../Clients/Clients'
+import Contact from '../Contact/Contact'
+import Founder from '../Founder/Founder'
+import Hero from '../Hero/Hero'
 import Styles from './Home.module.css'
 
 export default function HomeLayout() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './Home.module.css'
+import Styles from './Contact.module.css'
 
 export default function Contact() {
     return (
@@ -27,8 +27,6 @@ export default function Contact() {
                     </span>
                 </div>
             </div>
-
-
         </div>
     )
 }
