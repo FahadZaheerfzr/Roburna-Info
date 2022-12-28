@@ -53,8 +53,8 @@ export default function HomeLayout() {
                         <Founder />
                     </div>
                 </div>
-                <div className={`${Styles.clientDiv}  mt-12`}>
-                    <div ref={clientRef} className='md:mt-12 lg:mt-20'>
+                <div ref={clientRef} className={`${Styles.clientDiv}  mt-12`}>
+                    <div  className='md:mt-12 lg:mt-20'>
                         <Clients />
                     </div>
 

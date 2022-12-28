@@ -32,7 +32,7 @@ export default function Topbar({ active, executeScroll }) {
                 <img className='pr-10' src="/logo.svg" alt="logo" />
             </div>
 
-            <div className='hidden md:flex items-center gap-x-14 w-full'>
+            <div className='hidden md:flex items-center justify-center gap-x-14 w-full'>
                 {navItems.map((nav_item) => (
                     <span key={nav_item.id} className={`text-2xl text-white cursor-pointer ${active === nav_item.name && "font-semibold"}`}
                         onClick={() => executeScroll(nav_item.name)}
