@@ -13,11 +13,11 @@ export default function HomeLayout() {
 
             <div className={`${Styles.mainDiv}`}>
                 <div className={`${Styles.topDiv}`}>
-                    <div className='h-screen flex items-center justify-center'>
+                    <div className='h-full md:h-screen flex items-center justify-center'>
                         <About />
                     </div>
 
-                    <div className=''>
+                    <div className='mt-32 md:mt-0'>
                         <Founder />
                     </div>
                 </div>
@@ -26,7 +26,7 @@ export default function HomeLayout() {
                         <Clients />
                     </div>
 
-                    <div className='md:mt-40 md:pb-40 lg:mt-52 lg:pb-52 xl:mt-60 xl:pb-60'>
+                    <div className='mt-28 pb-28 md:mt-40 md:pb-40 lg:mt-52 lg:pb-52 xl:mt-60 xl:pb-60'>
                         <Contact />
                     </div>
                 </div>

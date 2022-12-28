@@ -19,3 +19,17 @@
     background-position: top;
     background-size: 1000px;
 }
+
+@media screen and (max-width: 768px) {
+    .topDiv {
+        background: none;
+    }
+    
+    .clientDiv {
+        background: url("/public/clients/tree.svg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 500px;
+    }
+}
+    

@@ -1,4 +1,17 @@
 .footer {
-    background: linear-gradient(270deg, #4A8B2C 0%, #C89211 97.5%);
+    background: linear-gradient(270deg, #4A8B2C 0%, #C89211 97.5%) !important;
     opacity: 0.99;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        background: white !important;
+    }
+
+    .footerText {
+        background: linear-gradient(270deg, #4A8B2C 0%, #C89211 97.5%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 }
